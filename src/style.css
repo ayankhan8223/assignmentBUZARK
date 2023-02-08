@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+#fileInput {
+  position: absolute;
+  background-color: white;
+}
+#progress {
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: white;
+  inset: 0;
+  margin: auto;
+  opacity: 0;
+  /* color: #ffffff;
+  font-family: "Caveat", cursive;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0; */
+}
+#progressRatio {
+  height: inherit;
+  background-color: red;
+  opacity: 0;
+}
+#percentage {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
